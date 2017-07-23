@@ -1,10 +1,13 @@
-# OwlMonitor猫头鹰监控
-OwlMonitor猫头鹰监控，是一个检测Android UI卡顿的分析工具。
-1. 检测ui frame的刷新卡顿
-2. 检测主线程Looper的超时操作
-3. 主线程卡顿输出简洁的stacktrace信息
-4. 自定义卡顿信息的处理，例如日志输出、上报后台等
-5. 支持在后台时停止监测，减少耗电，后台时调用pause()，前台时调用resume()
+# OwlMonitor 猫头鹰监控
+OwlMonitor is an analysis tool for detecting Android UI block.
+
+1. Detect ui frame refresh block.
+2. Detects the timeout operation of the main thread Looper.
+3. The main thread block outputs the simple stacktrace information.
+4. Customize the processing of block output information, such as log output, reporting background and so on.
+5. Support in the background to stop monitoring, reduce power consumption, the background call pause (), the front desk call resume ().
+
+
 
 ## Sample
 ```
